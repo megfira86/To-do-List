@@ -1,7 +1,3 @@
-alert("Asalamualeykum Werahmetullahi Webarakatuh");
-
-prompt("Enter your name","Full name")
-
 let tasksDescriptions ={
     "Review Week 1 Work":"Revisit last week's deliverables, fix mistakes, and note lessons learned.",
     
