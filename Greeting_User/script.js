@@ -1,3 +1,3 @@
 
-    alert("Hello!");
-    prompt("Enter Your Name","Megfira");
+   let name =prompt("Enter your name:");
+   alert("Hello,"+" "+name+"!");
