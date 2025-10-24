@@ -28,3 +28,15 @@ function showTaskStatus(tasks){
 
  console.log(showTaskStatus(tasks));
 
+ const selectAllBtn = document.getElementById('selectAllBtn');
+ const itemCheckboxes = document.querySelectorAll('.item-checkbox');
+ const msg = document.getElementById('message');
+
+ selectAllBtn.addEventListener('click', function() {
+  itemCheckboxes.forEach(checkbox => {
+    checkbox.checked = true;
+    msg.textContent ='You have completed all tasks';
+  });
+  console.log('You have completed all tasks');
+});
+

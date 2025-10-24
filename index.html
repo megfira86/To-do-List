@@ -12,6 +12,7 @@
     <p>A simple list with brief descriptions — plain HTML only.</p>
 
     <h2>Tasks & Descriptions</h2>
+   
     Review Week 1 Work<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisit last week's deliverables, fix mistakes, and note lessons learned.<br>
 
@@ -34,15 +35,17 @@
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Package your work, double-check requirements, and submit before the deadline.<br>
 
     <h2>Quick Checklist</h2>
+     <button id="selectAllBtn">Completed</button>
     <ul>
-       <li id="a"><label><input type="checkbox">Review Week 1 Work</label></li>
-       <li id="b"><label><input type="checkbox">Learn New Tools/Concepts</label></li>
-       <li id="c"><label><input type="checkbox">Complete Readings/Resources</label></li>
-       <li id="d"><label><input type="checkbox">Main Project Progress</label></li>
-       <li id="e"><label><input type="checkbox">Team Collaboration</label></li>
-       <li id="f"><label><input type="checkbox">Mid-Week Check</label></li>
-       <li id="g"><label><input type="checkbox">Submit Deliverables</label></li>
+       <li id="a"><label><input type="checkbox" class="item-checkbox">Review Week 1 Work</label></li>
+       <li id="b"><label><input type="checkbox" class="item-checkbox">Learn New Tools/Concepts</label></li>
+       <li id="c"><label><input type="checkbox" class="item-checkbox">Complete Readings/Resources</label></li>
+       <li id="d"><label><input type="checkbox" class="item-checkbox">Main Project Progress</label></li>
+       <li id="e"><label><input type="checkbox" class="item-checkbox">Team Collaboration</label></li>
+       <li id="f"><label><input type="checkbox" class="item-checkbox">Mid-Week Check</label></li>
+       <li id="g"><label><input type="checkbox" class="item-checkbox">Submit Deliverables</label></li>
     </ul>
+    <p id="message" style="font-family: cursive;"></p>
  </div>
  <script src="./script.js"></script>
 </body>
